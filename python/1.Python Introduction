@@ -7,3 +7,58 @@ Topics:
 4.User Input & Type casting
 5.Operators
 6.Functions
+
+
+
+1.INTRO TO PYTHON
+
+--- GUDO VAN ROMAN-----
+Python -> interpter lang - Procedural -> c - Scripting -> JS - object orinetd -> JAVA
+->Python is an interpreted, high-level, general-purpose programming language.
+->Python is multi-paradigm : Its supports object oriendtd, procedural, Functional programming.
+
+Feautres:
+1.Cross platform - Platform Independnt
+2.Dynamically type - No needed to specify data type [ Interview qn ]
+3.Simple and Easy
+4.Interpreted lang - Line by Line
+5.Library - Inbuilt lib
+6.Friendly - Large community
+
+
+2.GETTING STARTED CODE WITH PYTHON
+
+Print("Hello,World") - It executes line by line , whereas complier complied all code and exceute and give err.
+
+-> Multi - line
+    print("hello")
+    print("world)
+
+->Printing on same linne
+    print("Hello", end=" ")
+    print("world)
+
+->Comments
+  1.Single line - #
+  2.Multi-line -  ''' ******* '''
+
+->Combining print() and comments
+
+  #printing name
+  name="vijay"
+  print("Hello", + name + " hai")
+
+->Tab \t
+  print("hello\tworld")
+
+#PYTHON CODE FLOW OF EXECUTION:
+  1.source code
+  2.Python Interpreter reads code
+  3.Byte compalaition - changes py code into byte code
+  4.PVM executes Bytecode - changes to bytecode to machine code
+  5.Machine code processing - cpu performs machine code and taskes action
+  6.Output Displayed
+
+
+
+3.PYTHON SYNTAX AND DATA TYPES:
