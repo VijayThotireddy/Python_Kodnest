@@ -127,6 +127,7 @@ More About Strings:
         - Index starts from 0 , end index end-1 or len-1.or n-1 (where n is length of string).
         eg: s="kodnest"
             print(s) #kodnest
+            print(len(S))
             print(s(start:stop:step))
             print(s[5])
             print(s[2:5])
@@ -176,6 +177,9 @@ More About Strings:
             print(s1.endswith("est")) - true
             print(s7.isdigit()) - True
             print(s1.isalpha()) - true
+            print(s1.conact("hai")) -err becoz there is no method concat in python use " + "
+            print(s1+"hai")
+            print(id(S1) - gets u the address of the value.
             print(s8.isalnum()) - true
             
                 
