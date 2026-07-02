@@ -315,9 +315,90 @@ More About Strings:
 7.CONTROL CONSTRUCTS:
 
     1.Conditional - > if, else, elif , nested, switch(match in py)
-    2.Loops -> for, while
-    3.Special controls -> break, contiune, pass, return
-            
+    2.Loops -> for, while, do while
+    3.Special controls / jump staetmenst-> break, contiune, pass, return
+
+
+    1.Conditional:
+    a> IF
+        if(10>4):
+            print("big number")
+
+    b> IF-ELSE
+        if(10>4):
+            print("big num")
+        else:
+            print("small num)
+
+    c> Else if ladder
+        marks=89
+        if marks >90:
+            print("a")
+        elif marks >80:
+            print("b")
+        elif marks >70:
+            pritn("c)
+        else:
+            print("fail")
+
+    d> Switch(match)
+        day=int(input())
+        match day:
+            case 1:
+                print("monday")
+        | |  |
+
+
+
+
+    2.LOOPS
+        1.For loop
+            for num in range(1,6):
+                print(num)
+            o/p : 1 2 3 4 5 
+
+        2.While
+            savings =0
+            while savings < 500:
+                savings = savings+100
+                print(savings)
+
+        3.we dont have do while loop
+
+    3.Jump statements:
+        a>break:
+            for num in range(1,11):
+                if num==5:
+                    break
+                print(num)
+            o/p: 1 2 3 4 
+
+        b>continue:
+            for num in range(1,6):
+                if num == 3:
+                    continue
+                print(num)
+            o/p: 1 2 4 5
+
+        c>Pass
+            for num in range(1,4):
+                if num ==2:
+                    pass #placeholder for future code
+                else:
+                    print(num)
+                o/p: 1,3
+
+d>return
+    def greet(name):
+        if not name:
+            return "No name provided"
+        return f"hello,{name}"
+    print(greet("amit")
+    print(greet("")
+
+    o/p: Hello, Amit
+         no name provided
+
                        
                             
                         
