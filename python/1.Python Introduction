@@ -7,6 +7,7 @@ Topics:
 4.User Input & Type casting
 5.Operators
 6.Functions
+7.control statements
 
 
 
@@ -181,5 +182,143 @@ More About Strings:
             print(s1+"hai")
             print(id(S1) - gets u the address of the value.
             print(s8.isalnum()) - true
+
+            S1="python"
+            s2="python"
+            print(s1 is s2) - is is membership operator (checks for address) ans: True
+
+
+
+
+
+4.User Input and Type Casting:
+
+    input("entre ur name")
+    int(input())
+    str(input())
+    float(input())
+    bool(input())
+
+    -> input() : default it accepts as string.
+
+    ->TYpe casting: converting one typw of data to another.
+
+
+
+5.OPERATORS:
+
+        a + b
+        a,b -> operands
+         +  -> operator
+
+        TYpes :
+        1.Arthiematic
+        2.comparison
+        3.Logical
+        4.Assignment
+        5.Bitwise
+        6.Identity
+        7.Membership
+
+        1.Arithematic : +, -, *, %, //, **, /
+                / -> x=15, y=4 ans: 3.75
+                //-> ans:3 - round value
+                % -> ans:3 -> remainder
+
+        2.Comparision : > ,< ,>=, <=, ==, !=
+
+        3.Logical : And, Or, Not
+                And -> a=(5>3) and b=(4<6) - true
+                Or -> a=(5<3) or b=(4<6) -true
+                Not -> a=not(5<6) - false
+
+        4.Assignment: =,+=, -=, *=, /=, %=
+            a=5
+            a+=3 ->8
+            a-=3 ->2
+            a*=3 ->15
+            a%=2 ->1
+
+        5.Bitwise : &, |, >>, <<, ~, ^
+            & -> a=5 & b=3 -> a is 1
+            | -> a=5 | b=3 -> a is 7
+            ^ -> a=5^3 -> a is 6
+            ~ -> a=~5 -> a is -6
+            a=5 << 1 -> a is 10
+            a=5 >> 1 -> a is 2
+
+        6.Identity:
+            x=["apple","mango"], Y=["apple","mango"], z=x
+            print(x is z) -> true
+            print(x==y) -> true
+            print(x is y) -> false
+
+        7.membership: in, not in
+
+            fruits=["apple","mango","gra[pes]
+            print("apple" in fruits) -> true
+
+
+
+6.FUNCTIONS:
+
+           intervew : STAR - situtation -  task - action - result
+
+            def -> define
+            syntax :
+                    def function_name(params ->optional):
+                        fun_body
+                        return -> optional
+
+                    function_name(argument) ->fun call
+
+            eg: def greet():
+                    print("good morning")
+                greet()
+
+            a>parameters and arguments
+                def greet(name):
+                    pritn(f"good morning {name}")
+                greet("anu") 
+
+             b>default paarmeters
+                def greet(name="anu"):
+
+            Types of functions:
+            1.NO Arguments and No return value
+                def sqr():
+                    num=1
+                    print(num*num)
+                sqr()
             
-                
+            2.No argument and return value
+                def sqr():
+                    num=2
+                    return num*num
+                n=sqr()
+                print(n)
+            
+            3.Argument and no return
+                def sqr(num):
+                    print(num*num)
+                n=sqr(3)
+                print(n)
+            
+            4.Argument and return
+                dfe sqr(num):
+                    return num*num
+                n=sqr(23)
+                print(n)
+
+
+
+7.CONTROL CONSTRUCTS:
+
+    1.Conditional - > if, else, elif , nested, switch(match in py)
+    2.Loops -> for, while
+    3.Special controls -> break, contiune, pass, return
+            
+                       
+                            
+                        
+                            
