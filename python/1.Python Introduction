@@ -51,14 +51,27 @@ Print("Hello,World") - It executes line by line , whereas complier complied all 
 ->Tab \t
   print("hello\tworld")
 
+->NEW LINE \n
+  print("hello world\n")
+
+->Separate \s
+    print("30","12","2004",sep="/") -> 30/12/2004
+
 #PYTHON CODE FLOW OF EXECUTION:
-  1.source code
+  1.source code -.py file
   2.Python Interpreter reads code
   3.Byte compalaition - changes py code into byte code
   4.PVM executes Bytecode - changes to bytecode to machine code
   5.Machine code processing - cpu performs machine code and taskes action
   6.Output Displayed
 
+
+eg:
+a="10"
+b=9
+print(a+b) - Type err : str +int can't cancaet
+print(a,b) - 10,9
+print(type(a)) - <class<str>>
 
 
 3.PYTHON SYNTAX AND DATA TYPES:
